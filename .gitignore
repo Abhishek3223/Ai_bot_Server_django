@@ -1,0 +1,87 @@
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+__pycache__/
+*.so
+
+# Django specific files
+*.log
+*.pot
+*.pyc
+*.pyo
+*.sqlite3
+db.sqlite3
+
+# Media files
+/media
+/media/
+
+# Static files
+/staticfiles/
+/static/
+
+# Local environment variables
+.env
+*.env
+
+# Django migrations
+**/migrations/*
+!**/migrations/__init__.py
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+
+# Node modules (if you use frontend libraries with Django)
+node_modules/
+npm-debug.log
+
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Virtual Environment
+env/
+venv/
+ENV/
+.VENV/
+
+# pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+*.cover
+*.py,cover
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest
+.cache/
+
+# Celery
+celerybeat-schedule
+*.pid
+
+# Other
+*.pid
+*.seed
+*.swo
+*.swn
+*.bak
+*.orig
+*.tmp
+*.old
